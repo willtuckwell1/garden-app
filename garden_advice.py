@@ -14,6 +14,9 @@ def garden_advice(season="spring", plant_type="vegetables"):
     print(seasonal_advice.get(season, "Choose a valid season."))
     print(plant_advice.get(plant_type, "Choose vegetables or flowers."))
 
+    # TODO: Move the advice data into a separate configuration file.
+    # TODO: Add input validation for season and plant_type.
+
 
 if __name__ == "__main__":
     garden_advice()
